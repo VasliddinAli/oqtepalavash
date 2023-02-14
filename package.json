@@ -1,0 +1,25 @@
+{
+  "name": "oq-tepa-lavash",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "ngrok": "^4.3.3",
+    "pinia": "^2.0.28",
+    "vue": "^3.2.47",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@vicons/fa": "^0.12.0",
+    "@vicons/ionicons5": "^0.12.0",
+    "@vicons/material": "^0.12.0",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "naive-ui": "^2.34.3",
+    "vfonts": "^0.0.3",
+    "vite": "^4.0.0"
+  }
+}
