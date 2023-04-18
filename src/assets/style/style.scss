@@ -729,7 +729,7 @@ footer{
         position: sticky;
         top: 0;
         width: 100%;
-        background: #fff;
+        background-color: #fff;
         z-index: 999;
         &-top{
             display: flex;
@@ -778,7 +778,36 @@ footer{
                 }
             }
         }
-        
+        & .nav_bottom{
+            position: fixed;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            background-color: #fff;
+            margin: 0;
+            padding: 10px 20px;
+            left: 0;
+            bottom: 0;
+            box-shadow: 2px 2px 10px 2px #ccc;
+            & a{
+                text-decoration: none;
+                color: #000;
+                font-size: 15px;
+                transition: .2s;
+                &:hover,
+                &.router-link-active,
+                &.router-link-exact-active {
+                    color: #e62b40;
+                }
+                & .bolim{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+        }
     }
     .main{
         padding-top: 10px;
